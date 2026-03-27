@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_common_blocks_footers",
+  "info": {
+    "displayName": "Footer"
+  },
+  "options": {},
+  "attributes": {
+    "footerCollegeLogo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "footerSocialsIcons": {
+      "type": "component",
+      "component": "shared.footer-socials-icon-item",
+      "repeatable": true
+    },
+    "footerContact": {
+      "type": "component",
+      "component": "common-blocks.footer-contact",
+      "repeatable": false
+    },
+    "footerLinkColumns": {
+      "type": "component",
+      "component": "common-blocks.footer-link-columns",
+      "repeatable": true
+    },
+    "footerFundLogo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "footerCopyright": {
+      "type": "component",
+      "component": "shared.text-single",
+      "repeatable": true
+    },
+    "footerCertifications": {
+      "type": "component",
+      "component": "shared.footer-certification-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

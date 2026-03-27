@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_header_nav_items",
+  "info": {
+    "displayName": "headerNavItem"
+  },
+  "options": {},
+  "attributes": {
+    "href": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "target": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

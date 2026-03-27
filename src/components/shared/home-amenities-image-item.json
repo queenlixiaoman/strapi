@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_home_amenities_image_items",
+  "info": {
+    "displayName": "homeAmenitiesImageItem"
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string"
+    },
+    "src": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "alt": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

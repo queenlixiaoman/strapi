@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_home_blocks_intros",
+  "info": {
+    "displayName": "Intro"
+  },
+  "options": {},
+  "attributes": {
+    "homeIntro": {
+      "type": "component",
+      "component": "shared.home-intro",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_footer_link_items",
+  "info": {
+    "displayName": "footerLinkItem"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    },
+    "target": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

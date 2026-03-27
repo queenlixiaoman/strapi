@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_common_blocks_footer_contacts",
+  "info": {
+    "displayName": "FooterContact"
+  },
+  "options": {},
+  "attributes": {
+    "addressLines": {
+      "type": "component",
+      "component": "shared.text-single",
+      "repeatable": true
+    },
+    "phone": {
+      "type": "string"
+    },
+    "timer": {
+      "type": "component",
+      "component": "shared.label-value",
+      "repeatable": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "email": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

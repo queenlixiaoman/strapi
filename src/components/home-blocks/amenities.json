@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_blocks_amenities",
+  "info": {
+    "displayName": "Amenities"
+  },
+  "options": {},
+  "attributes": {
+    "homeAmenitiesItems": {
+      "type": "component",
+      "component": "shared.home-amenities-item",
+      "repeatable": true
+    },
+    "homeAmenitiesImages": {
+      "type": "component",
+      "component": "shared.home-amenities-image-item",
+      "repeatable": true
+    },
+    "homeAmenitiesInfo": {
+      "type": "component",
+      "component": "shared.home-amenities-info",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

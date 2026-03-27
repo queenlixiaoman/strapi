@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_home_amenities_infos",
+  "info": {
+    "displayName": "homeAmenitiesInfo"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "ctaText": {
+      "type": "string"
+    },
+    "ctaLink": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

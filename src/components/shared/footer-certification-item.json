@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_footer_certification_items",
+  "info": {
+    "displayName": "footerCertificationItem"
+  },
+  "options": {},
+  "attributes": {
+    "alt": {
+      "type": "string"
+    },
+    "src": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_home_feature_cards",
+  "info": {
+    "displayName": "homeFeatureCard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "secondTitle": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "linkType": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

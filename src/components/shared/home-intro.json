@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_shared_home_intros",
+  "info": {
+    "displayName": "homeIntro"
+  },
+  "options": {},
+  "attributes": {
+    "titleText": {
+      "type": "string"
+    },
+    "brandImg": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "paragraphs": {
+      "type": "component",
+      "component": "shared.text-single",
+      "repeatable": true
+    },
+    "caBtnText": {
+      "type": "string"
+    },
+    "caBtnLink": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

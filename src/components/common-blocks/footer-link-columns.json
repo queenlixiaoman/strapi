@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_common_blocks_footer_link_columns",
+  "info": {
+    "displayName": "FooterLinkColumns"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "component",
+      "component": "shared.footer-link-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

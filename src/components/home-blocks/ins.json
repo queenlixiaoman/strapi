@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_home_blocks_ins",
+  "info": {
+    "displayName": "Ins"
+  },
+  "options": {},
+  "attributes": {
+    "homeSocialTitle1": {
+      "type": "string"
+    },
+    "homeSocialTitle2": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
