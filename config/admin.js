@@ -17,4 +17,16 @@ module.exports = ({ env }) => ({
     nps: env.bool('FLAG_NPS', true),
     promoteEE: env.bool('FLAG_PROMOTE_EE', true),
   },
+  preview: {
+    enabled: true,
+    config: {
+      allowedOrigins: ['http://localhost:7003'],
+      async handler(uid, { documentId, locale, status }) {
+        if (uid === 'api::home-page.home-page') {
+          return `http://localhost:7003/preview?type=home-page&documentId=${documentId}&secret=${env('PREVIEW_SECRET', 'my-secret-key')}&status=${status}`;
+        }
+        return null;
+      },
+    },
+  },
 });
